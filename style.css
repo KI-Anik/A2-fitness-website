@@ -25,6 +25,13 @@ body {
     border: none;
 }
 
+p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 60px;
+}
+
 /* navbar */
 .nav-container {
     justify-content: space-around;
@@ -139,7 +146,8 @@ body {
 
 /* second section */
 .second-section {
-    text-align: center
+    text-align: center;
+    margin: 10px 45px;
 }
 
 .second-title {
@@ -147,14 +155,6 @@ body {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 24px;
-}
-
-.second-section p {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 15px;
-    font-weight: 200;
-    width: px;
-    margin-bottom: 60px;
 }
 
 .second-cards {
@@ -169,4 +169,28 @@ body {
     color: white;
     font-size: 18px;
     font-weight: 600;
+}
+
+/* Run sec */
+.run {
+    border-radius: 18px;
+    background: rgb(54, 51, 51);
+    margin: 25px 250px;
+    padding: 50px;
+
+}
+
+.run-container {
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.run-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.run-container img {
+    border-radius: 15px;
 }
