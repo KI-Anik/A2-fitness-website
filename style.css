@@ -156,13 +156,17 @@ body {
     width: px;
     margin-bottom: 60px;
 }
-.second-cards{
-justify-content: space-evenly;}
-.second-cards img{
+
+.second-cards {
+    justify-content: space-evenly;
+}
+
+.second-cards img {
     border-radius: 50%;
 }
-.image-title{
+
+.image-title {
     color: white;
     font-size: 18px;
-font-weight: 600;
+    font-weight: 600;
 }
