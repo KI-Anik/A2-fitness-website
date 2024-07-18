@@ -156,9 +156,10 @@ body {
     width: px;
     margin-bottom: 60px;
 }
+.second-cards{
+justify-content: space-evenly;}
 .second-cards img{
     border-radius: 50%;
-    border: ;
 }
 .image-title{
     color: white;
