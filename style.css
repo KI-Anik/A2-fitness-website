@@ -220,13 +220,41 @@ thead {
     font-size: 16px;
 }
 
-.bmi-right form input {
+.bmi-right form input, option {
     padding: 15px 45px;
     border-radius: 5px;
     border: none;
     margin: 8px;
+    background-color: bl;
 }
 
 .bmi-right button {
     margin-top: 20px;
+}
+
+/* Meet out team */
+.team{
+    background-color: black;
+    text-align: center;
+}
+.team-content{
+padding: 50px;
+}
+.images img{
+    width: 300px;
+    border-radius: 8px;
+    gap: 10px;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 40px 380px;
+
+}
+
+/* foooter */
+.foot{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 50px 200px;
 }
